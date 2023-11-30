@@ -31,10 +31,10 @@ This experiment is designed to support the second year Signals and Systems cours
 |----|--------------|-------------|
 |9/10|1: Introduction|/|
 |16/10|2: LTI Systems|EX1 - Introduction|
-|23/10|2: LTI Systems|EX2 - LTI systems|
-|30/10|3: Sampling| EX3 - Sampling|
+|23/10|3: Sampling|EX2 - LTI systems|
+|30/10|4: Fourier Transform| EX3 - Sampling|
 |6/11| Midterm| Midterm|
-|13/11| 4: Fourier Transform| EX4 - Fourier|
+|13/11| 5: Laplace| EX4 - Fourier|
 |20/11| 5: Laplace | EX4 - Fourier|
 |27/11| 6: z-Transform | EX5 - Filters|
 |04/12| 7: Filters| EX6 - FIR/IIR Filters|
@@ -82,18 +82,11 @@ __Note:__ you may need to use ``python -m notebook`` instead
 
 1. Download this Git repository 
 2. Install Python 3.12 (or any version from 3.6 to 3.12) from <https://www.python.org/downloads/>
-3. Download the get-pip.py (<https://bootstrap.pypa.io/get-pip.py>) file and store it in the same directory as python is installed. Run the command given below:
-```
-python get-pip.py
-python -m pip install --upgrade pip
-```
-__Note:__ you may need to replace ``python`` with ``python3``
-
-4. Install the required Python packages 
+3. Install the required Python packages 
 ```
 python -m pip install numpy matplotlib scipy soundfile jupyter
 ```
-5. Go to the `sap-EE2-SS-LAB` folder and run the Jupyter Notebook
+4. Go to the `sap-EE2-SS-LAB` folder and run the Jupyter Notebook
 ```
 jupyter notebook
 ```
